@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metamind</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.3/chart.umd.min.js"></script>
+
+</head>
+<body>
+  <div id="container">
+    <div id="header">
+      <h1>Metamind</h1>
+      <div id="controls">
+        <label>
+          <input type="checkbox" id="darkModeToggle"> Dark Mode
+        </label>
+      </div>
+    </div>
+    <div id="loading" style="display: none;">Loading...</div>
+    <div id="tabs">
+      <button class="tab active" data-tab="metadata">Metadata</button>
+      <button class="tab" data-tab="insights">Insights</button>
+      <button class="tab" data-tab="seo">SEO</button>
+      <button class="tab" data-tab="history">History</button>
+    </div>
+    <div id="content">
+      <div id="metadata" class="tab-content active">
+        <p><strong>Title:</strong> <span id="title">Loading...</span></p>
+        <p><strong>Description:</strong> <span id="description">Loading...</span></p>
+        <p><strong>Keywords:</strong> <span id="keywords">Loading...</span></p>
+        <p><strong>OG Title:</strong> <span id="ogTitle">Loading...</span></p>
+      </div>
+      <div id="insights" class="tab-content">
+        <p><strong>Scripts:</strong> <span id="scriptCount">Loading...</span></p>
+        <p><strong>Stylesheets:</strong> <span id="styleCount">Loading...</span></p>
+        <p><strong>First Contentful Paint (FCP):</strong> <span id="FCP">Loading...</span></p>
+        <p><strong>Cumulative Layout Shift (CLS):</strong> <span id="CLS">Loading...</span></p>
+        <p><strong>Headings:</strong> <span id="headingStats">Loading...</span></p>
+      </div>
+      <div id="seo" class="tab-content">
+        <p><strong>Meta Description:</strong> <span id="metaDescCheck">Loading...</span></p>
+        <p><strong>Alt Text Missing:</strong> <span id="altCheck">Loading...</span></p>
+      </div>
+      <div id="history" class="tab-content">
+        <h2>History</h2>
+        <input type="text" id="searchHistory" placeholder="Search history..." />
+        <ul id="historyList"></ul>
+        <button id="clearHistory">Clear History</button>
+      </div>
+    </div>
+    <button id="refresh">Refresh</button>
+    <button id="download">Download Metadata</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

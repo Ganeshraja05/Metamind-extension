@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dark {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  #container {
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  #header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  #controls label {
+    font-size: 0.9rem;
+  }
+  
+  /* Tabs */
+  #tabs {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .tab {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-weight: bold;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .tab.active {
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+  }
+  
+  .tab:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 10px;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  /* History Section */
+  #historyList {
+    list-style-type: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  #historyList li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #historyList li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Buttons */
+  button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #refresh {
+    margin-bottom: 10px;
+  }
+  
+  /* Input Fields */
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Loader */
+  #loading {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
