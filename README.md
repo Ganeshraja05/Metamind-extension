@@ -55,6 +55,9 @@ To contribute or develop the project further:
 
 ## Pics
 ![Screenshot 2025-02-15 172551](https://github.com/user-attachments/assets/99bc1f21-73f2-46d6-b4f2-f22fa83d96fb)
+![Screenshot 2025-02-15 172513](https://github.com/user-attachments/assets/345b762d-f876-49c1-b9ca-b2de6a57a113)
+![Screenshot 2025-02-15 172500](https://github.com/user-attachments/assets/7545c5f3-5eb3-4da7-be37-b74ac49ad30a)
+![Screenshot 2025-02-15 172438](https://github.com/user-attachments/assets/56a8dfae-b798-40ed-9bb9-3594617688da)
 
 ## Technologies Used
 
