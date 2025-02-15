@@ -53,6 +53,9 @@ To contribute or develop the project further:
 3. Test your changes locally by reloading the extension via `chrome://extensions/`.
 4. Submit a pull request with your changes.
 
+## Pics
+![Screenshot 2025-02-15 172551](https://github.com/user-attachments/assets/99bc1f21-73f2-46d6-b4f2-f22fa83d96fb)
+
 ## Technologies Used
 
 - **HTML5**: Structure of the popup interface.
